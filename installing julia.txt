@@ -1,0 +1,17 @@
+installing Julia is difficult. First, instal Julia. Then instal JuliaPro (which comes bundled with Juno IDE and some julia packages preinstalled). Then install the following packages from within Julia: 
+
+- Plots
+- PyPlots
+- SpecialFunctions
+- Elliptic
+
+To install packages, first use 'import Pkg' then for each package, try 'add', 'build' and 'using' (in that order). For example: 
+
+Pkg.add("Plots");
+Pkg.build("Plots");
+using Plots;
+
+
+For some reason, it helps to have the JuliaPro installed to make the download of packages more smooth. 
+
+Other packages to consider downloading: Interact.jl (for interactive plots), Gadfly.jl (for exporting images).
