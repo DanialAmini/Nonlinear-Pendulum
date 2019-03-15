@@ -5,8 +5,12 @@ installing Julia is difficult. First, instal Julia. Then instal JuliaPro (which 
 - SpecialFunctions
 - Elliptic
 
-To install packages, first use 'import Pkg' then for each package, try 'add', 'build' and 'using' (in that order). For example: 
+Download this:
+https://www.microsoft.com/en-us/download/details.aspx?id=54616
 
+To install packages, first use 'import Pkg' then for each package, try 'add', 'build' and 'using' (in that order). For example:
+
+Pkg.build("GR") 
 Pkg.add("Plots");
 Pkg.build("Plots");
 using Plots;
